@@ -1,0 +1,43 @@
+  
+.offcanvas-custom-design {
+    width: 20%;
+    height: 100vh;
+  }
+
+  .notify-hover:hover {
+    background: #E9ECEF !important;
+  }
+
+  .nav-bg {
+    background: #E9ECEF !important;
+
+  }
+
+ .page-item a{  outline:none !important;
+  box-shadow:none !important;
+}
+#example_filter label input[type="search"] {
+outline:none !important;
+  box-shadow:none !important;
+}
+
+
+  @media only screen and (min-width: 992px) {
+    .offcanvas-custom-design {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 992px) {
+    .offcanvas-custom-design {
+      width: 250px !important;
+
+
+    }
+
+
+  }
